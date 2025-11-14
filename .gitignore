@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Environment
+venv/
+.env
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+✅ 2. requirements.txt yaratiladi
+Terminalda yozasiz:
+
+pgsql
+Копировать код
+pip freeze > requirements.txt
+Bu GitHub’ga yuklanadi.
+
+🔧 Keyin yuklash bosqichi:
+git init
+
+git add .
+
+git commit -m "first commit"
+
+GitHub’da repo ochish
+
+Terminalda:
+
+csharp
+Копировать код
+git remote add origin https://github.com/user/repo.git
+git push -u origin master
+Shu bilan Django project GitHub’ga bot kabi toza qilib yuklanadi.
+
+Agar xohlasang, men senga to‘liq tayyor Django project tuzib, .gitignore, requirements.txt bilan GitHubga yuklashni bosqichma-bosqich ko‘rsatib beraman.
+
+
+
+
+
+
+
+Вы сказали:
+vebsayt uchun girignoreni yzo ichini
+
+
+
+ChatGPT сказал:
+Albatta! Django veb-sayt (project) uchun to'liq va toza .gitignore mana shu bo‘ladi:
+
+bash
+Копировать код
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+static/
+*.log
+
+# Environment variables
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+
+# Byte-compiled / optimized files
+*.egg-info/
+*.egg
+dist/
+build/
