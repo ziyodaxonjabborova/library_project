@@ -52,13 +52,13 @@
     <div class="col-md-8">
       {% for todo in todos %}
       <div class="card">
-        <center><b>{{todo.title}}</b></center>
+        <center><b>{{todo.title.capitalize}}</b></center>
         <hr/>
         Date: {{ todo.created_at|date:"d-m-Y" }}
         <hr/>
         {{todo.desc|truncatechars:20}}
         <hr/>
-        {{todo.get_status_display}}
+        {{todo.get_status_display.capitalize}}
         <br />
         <button class="btn btn-primary" style="float: right;"><span class="glyphicon glyphicon-trash"></span><a href="#">O'chirish</a></button>
       </div>
