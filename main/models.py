@@ -1,9 +1,9 @@
 from django.db import models
 
 class StatusChoices(models.TextChoices):
-    NEW='new',"New"
-    IN_PROGRESS='in_progress','IN Progress'
-    DONE='done','Done'
+    NEW='new',"🟢 Yangi"
+    IN_PROGRESS='in_progress','⏳ Jarayonda'
+    DONE='done','✅ Bajarilgan'
     
 class Todo(models.Model):
     title=models.CharField(max_length=200)

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Batafsil</title>
+
+    <style>
+        .card {
+
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),
+                        0 6px 20px 0 rgba(0,0,0,0.39);
+            background: DarkOrange;
+            margin-bottom : 5%;
+            border-radius: 25px;
+            padding : 2%;
+            overflow: auto;
+            resize: both;
+            text-overflow: ellipsis;
+            width: 1000px;
+            margin-left: 30px;
+            margin-top: 20px;
+           }
+           .card:hover{
+             background: lightblue;
+           }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <center><b>{{todo.title.capitalize}}</b></center>
+        <hr/>
+        <b>Sana:</b> {{ todo.created_at|date:"d-m-Y" }}
+        <hr/>
+        <b>Ta'rif:</b> {{todo.desc}}
+        <hr/>
+        <b>Status:</b> {{todo.get_status_display.capitalize}}
+        <br />
+        <a href="/"><button class="btn btn-primary" style="float: left; margin-top:15px"><span class="glyphicon glyphicon-home" style="margin-right: 10px;"></span>Bosh sahifa</button></a>
+      </div>
+    
+</body>
+</html>
