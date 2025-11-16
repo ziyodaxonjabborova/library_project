@@ -1,20 +1,20 @@
 # 📝 Todo CRUD Project
 
-Django yordamida yaratilgan oddiy va qulay Todo boshqaruv loyihasi. Foydalanuvchi topshiriqlarni qo‘shishi, ko‘rishi, tahrirlashi va o‘chirishi mumkin.
+Django yordamida yaratilgan oddiy va qulay Todo boshqaruv loyihasi
 
-🚀 Imkoniyatlar
+🚀 Imkoniyatlar:
 
 ➕ Yangi topshiriq qo‘shish
 
 📄 Barcha topshiriqlar ro‘yxati
 
-✏️ Topshiriqni tahrirlash (emoji bilan statuslar)
+✏️ Topshiriqni tahrirlash 
 
 🗑️ Topshiriqni o‘chirish
 
-🔍 Batafsil sahifa
+🔍 Batafsil sahifa<hr>
 
-🛠️ Texnologiyalar
+🛠️ Texnologiyalar:
 
 Python / Django
 
@@ -28,5 +28,5 @@ python manage.py migrate
 python manage.py runserver
 
 
-👩‍💻 **Muallif:** [Ziyodaxon Jabborova](https://github.com/ziyodaxonjabborova)
+👩‍💻 **Muallif:** [Ziyodaxon Jabborova](https://github.com/ziyodaxonjabborova) <br>
 Backend Developer bo‘lish yo‘lidagi birinchi amaliy loyiha 🚀
