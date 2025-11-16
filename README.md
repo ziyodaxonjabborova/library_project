@@ -22,7 +22,7 @@ HTML, CSS
 
 SQLite3 <hr>
 
-🔧 Ishga tushirish:
+🔧 Ishga tushirish:<br>
 pip install -r requirements.txt<br>
 python manage.py migrate <br>
 python manage.py runserver <hr>
